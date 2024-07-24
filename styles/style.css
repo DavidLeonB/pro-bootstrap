@@ -6,27 +6,37 @@ align-items: center;
 justify-content: center;
 }
 
-h1{
+h1 {
     font-size: 2.5rem;
+    padding: 15px 0;
     font-family: "Beau Rivage", cursive;
 
 }
 
-h2{
+h2 {
     font-size: 1.5rem;
     font-family: "Beau Rivage", cursive; 
 }
 
+.seccion-oscura {
+    color: white;
+    background-color:  #1b1b32;
+    
+  
+}
+
 /* Barra de navegación. */
-.navbar{
+.navbar {
     padding: 2rem;
     background-color:  rgb(205, 231, 231);
 }
 
-.navbar-collapse{
+.navbar-collapse {
     align-items: center;
     justify-content: space-between;
 }
+
+/* Sección Hero */
 
 .hero {
     background-color: #f5f6f7;
@@ -34,7 +44,7 @@ h2{
     text-align: center;
 }
 
-.hero-principal{
+.hero-principal {
     padding: 3rem;
 }
 
@@ -50,15 +60,29 @@ color: #615156;
     margin: 20px;
 }
 
+/* Sobre mi */
+
+.sobre-mi {
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor {
+    text-align: center;
+    
+    }
+
 /* Adaptable responsivo */
 @media screen and (max-width: 767px) {
     .navbar-brand {
         display: none;
     }
+    
 }
 
 @media screen and (min-width: 700px) {
     .hero-inferior-imagen {
         max-width: 600px;
     }
+    
 }
