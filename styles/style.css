@@ -17,16 +17,22 @@ h2 {
     font-family: "Beau Rivage", cursive; 
 }
 
-p{
+p {
     font-size: 1.5rem;
     font-family: "Beau Rivage", cursive; 
 }
 
-texto-oscuro{
+.btn-info {
+    font-size: 1.1rem;
+    margin: 20px;
+    font-family:"Beau Rivage", cursive ;
+}
+
+.texto-oscuro {
     color: #000;
 }
 
-texto-claro{
+.texto-claro {
     color: #fff;
 }
 
@@ -190,7 +196,28 @@ padding: 10px 0;
     opacity: 1;
 }
 
+.overlay .iconos-contenedor{
+    display: flex;
+}
+
+.overlay i{
+    color: #000;
+    font-size: 60px;
+    margin: 10px;
+}
 /* Adaptable responsivo */
+
+@media screen and (max-width:400px) {
+  .overlay h2 {
+    font-size: 18px;
+  }  
+
+  .overlay i {
+    font-size: 40px;
+  }
+    
+}
+
 @media screen and (max-width: 767px) {
     .navbar-brand {
         display: none;
