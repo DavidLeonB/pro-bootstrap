@@ -141,7 +141,8 @@ padding: 10px 0;
 }
 
 .badges-contenedor{
-    font-size: 20px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
     padding: 10px 0;
 }
 
@@ -230,6 +231,72 @@ padding: 10px 0;
     margin: 20px;
 }
 
+.articulos .card-header{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* Testimonios */
+
+.testi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonios {
+    padding: 40px 40px 80px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonios .carousel-inner{
+    max-width: 600px;
+}
+
+.testimonio-imagen {
+    margin: 10px 10px 20px 10px;
+    width: 150px;
+    height: 150px;
+}
+
+
+.carousel-item .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonio-texto {
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+
+.testimonio-info {
+font-weight: bold;
+text-align: center;
+}
+
+.testimonio-info p {
+    margin-bottom: 10;
+}
+
+.testimonio-footer .cliente {
+font-size: 1.5rem;
+}
+
+.testimonio-info .cargo {
+    font-size: 1.2rem;
+    color: #584e4e;
+} 
 
 /* Adaptable responsivo */
 
@@ -256,4 +323,15 @@ padding: 10px 0;
         max-width: 600px;
     }
     
+}
+
+@media screen and (max-width: 650px) {
+    .testimonio-imagen {
+        height: 120px;
+        width: 120px;
+    }
+
+    .testimonio-texto {
+        font-size: 14px;
+    }
 }
