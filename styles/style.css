@@ -114,11 +114,14 @@ color: #615156;
 }
 
 .experiencia .columna {
-    padding: 20px;
+    height: 350px;
+    width: 290px;
+    padding: 10px;
     border: 2px solid #8080804d;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     transition: all 0.2s ease-in;
 }
 
@@ -127,11 +130,10 @@ color: #615156;
     background-color: #1b1b32;
 }
 
-.experiencia i{
+.experiencia i {
     font-size: 2.5rem;
     color: #1b1b32;
     padding: 8px 19px;
-    /* border: 2px solid #1b1b32; */
     border-radius: 50%;
 }
 
@@ -140,13 +142,13 @@ font-weight: bold;
 padding: 10px 0;
 }
 
-.badges-contenedor{
+.badges-contenedor {
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
     padding: 10px 0;
 }
 
-.badges{
+.badges {
     margin: 4px;
 }
 .col-12 h1{
@@ -297,6 +299,12 @@ font-size: 1.5rem;
     font-size: 1.2rem;
     color: #584e4e;
 } 
+
+/* Contacto */
+.row .col-12{
+    margin: 10px;
+}
+
 
 /* Adaptable responsivo */
 
